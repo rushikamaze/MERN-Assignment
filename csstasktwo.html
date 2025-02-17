@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bars</title>
+    <style>
+        /*vertical-bar*/
+        .vertical-nav {
+            width: 200px;
+            border: 1px solid black;
+        }
+
+        .vertical-nav a {
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            color: blue;
+        }
+
+        .vertical-nav .home {
+            background-color: orange;
+            font-weight: bold;
+            color: white;
+        }
+
+        .vertical-nav .menu {
+            background-color: lightblue;
+            height: 150px;
+        }
+
+        /*horizontal-bar*/
+        .horizontal-nav {
+            width: 400px;
+            border: 1px solid black;
+            display: flex;
+            background-color: lightgray;
+        }
+
+        .horizontal-nav a {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: blue;
+            border-right: 1px solid black;
+        }
+
+        .horizontal-nav .home {
+            background-color: gray;
+            font-weight: bold;
+            color: white;
+        }
+
+        .horizontal-nav a:last-child {
+            border-right: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Vertical Navigation Bar</h2>
+    <div class="vertical-nav">
+        <a class="home">Home</a>
+        <div class="menu">
+            <a>Java</a>
+            <a>CSS</a>
+            <a>HTML</a>
+            <a>Bootstrap</a>
+        </div>
+    </div>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="horizontal-nav">
+        <a class="home">Home</a>
+        <a>Java</a>
+        <a>HTML</a>
+        <a>CSS</a>
+    </div>
+</body>
+</html>
