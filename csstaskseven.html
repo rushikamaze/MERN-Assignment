@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="csstaskseven.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" placeholder="Your email">
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password">
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="Your Phone Number">
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="gender-group">
+                    <div class="gender-option">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male:</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female:</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other:</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>language</label>
+                <select>
+                    <option value="">Select language</option>
+                    <option value="en">English</option>
+                    <option value="es">Bengali</option>
+                    <option value="fr">Assamese</option>
+                    <option value="de">Hindi</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Zip Code:</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group">
+                <label>About:</label>
+                <textarea placeholder="Write about yourself"></textarea>
+            </div>
+
+            <button type="submit" class="register-button">Register</button>
+        </form>
+    </div>
+</body>
+</html>
