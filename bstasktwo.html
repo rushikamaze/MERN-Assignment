@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builderz - Construction Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-size: 28px;
+            font-weight: bold;
+            color: #000;
+        }
+        .navbar {
+            background-color: #FFC107;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #000;
+        }
+        .hero {
+            background: url('bstasktwo.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 150px 0;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .services {
+            background: #001F3F;
+            color: white;
+            padding: 50px 0;
+        }
+        .service-box {
+            background: #FFC107;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigationbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Builderz</a>
+            <div class="ms-auto d-flex align-items-center">
+                <div class="me-4 contact-info"><i class="fas fa-clock"></i> Mon - Fri, 9:00AM - 6:00PM</div>
+                <div class="me-4 contact-info"><i class="fas fa-phone"></i> 9999988888</div>
+                <div class="me-4 contact-info"><i class="fas fa-envelope"></i> abc@example.com</div>
+                <a href="#" class="btn btn-dark">Get A Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mainnavigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Herosection -->
+    <div class="hero position-relative">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>We Are Professional</h2>
+            <h1>For Your Dream Project</h1>
+            <a href="#" class="btn btn-outline-light mt-3">Get A Quote</a>
+        </div>
+    </div>
+
+    <!-- Servicessection -->
+    <div class="services">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fas fa-hard-hat fa-2x mb-2"></i>
+                        <h4>Expert Worker</h4>
+                        <p>Experienced Workers from all over India</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fas fa-tools fa-2x mb-2"></i>
+                        <h4>Quality Work</h4>
+                        <p>High quality materials being used for construction</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fas fa-headset fa-2x mb-2"></i>
+                        <h4>24/7 Support</h4>
+                        <p>Contact us, or you can mail us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap_JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
