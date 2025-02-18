@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethnus Layout</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #00d4ff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar {
+    padding: 0;
+}
+.nav-link {
+    border-radius: 0;
+    padding: 15px 25px;
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+.left-nav {
+    background-color: #808080;
+}
+.right-nav {
+    background-color: #808080;
+}
+.content-area {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+.sidebar {
+    background-color: #666;
+    color: white;
+    height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Ethnus layout</h2>
+    </div>
+    
+    <nav class="navbar navbar-expand navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link left-nav" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SIGNUP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link right-nav" href="#">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 content-area">
+                <p>Write your content here</p>
+            </div>
+            <div class="col-md-3 sidebar">
+                <p>This is</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
