@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="jstaskeight.css">
+  </style>"
+</head>
+<body>
+  <div class="form-container">
+    <h1>Registration form</h1>
+    
+    <form action="#" method="post">
+      <div class="form-row">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="re-enter-password">Re-enter Password</label>
+        <input type="password" id="re-enter-password" name="re-enter-password">
+        <span class="validation-message">POOR OR MISMATCH</span>
+      </div>
+      
+      <div class="form-row">
+        <label>Gender</label>
+        <div class="gender-options">
+          <label><input type="radio" name="gender" value="male" checked> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="address">Address</label>
+        <textarea id="address" name="address"></textarea>
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="state">State</label>
+        <input type="text" id="state" name="state">
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="">Choose your country ▼</option>
+          <option value="usa">India</option>
+          <option value="india">USA</option>
+          <option value="uk">UK</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Japan</option>
+        </select>
+        <span class="validation-message">POOR</span>
+      </div>
+      
+      <div class="form-row">
+        <label>Languages known</label>
+        <div class="language-options">
+          <label><input type="checkbox" name="languages" value="english"> English</label>
+          <label><input type="checkbox" name="languages" value="kannada"> Kannada</label>
+          <label><input type="checkbox" name="languages" value="hindi"> Hindi</label>
+          <label><input type="checkbox" name="languages" value="telugu"> Telugu</label>
+        </div>
+      </div>
+      
+      <div class="checkbox-row">
+        <label><input type="checkbox" name="declaration"> Hereby I declare all the given details are true</label>
+      </div>
+      
+      <div class="login-link">
+        Log in to <a href="#">Filmio</a> website
+      </div>
+      
+      <div class="register-button">
+        <button type="submit">REGISTER</button>
+      </div>
+    </form>
+  </div>
+  
+  <script src="jstaskeight.js"></script>
+</body>
+</html>

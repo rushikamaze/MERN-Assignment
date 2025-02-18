@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #ffe0b2, #ffb6c1);
+  }
+  
+  .form-container {
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0000CC;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: baseline;
+  }
+  
+  .form-row label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"],
+  .form-row input[type="password"],
+  .form-row input[type="number"],
+  .form-row select,
+  .form-row textarea {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-row textarea {
+    height: 80px;
+  }
+  
+  .validation-message {
+    color: #FF0000;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .gender-options,
+  .language-options {
+    display: flex;
+    flex: 1;
+  }
+  
+  .gender-options label,
+  .language-options label {
+    width: auto;
+    margin-right: 15px;
+    text-align: left;
+    font-weight: normal;
+  }
+  
+  .checkbox-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-link a {
+    color: #0000CC;
+    text-decoration: none;
+  }
+  
+  .register-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register-button button {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
